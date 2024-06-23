@@ -165,6 +165,11 @@ echo -n "seu_email@example.com:sua_senha" | base64
 
 Substitua `{{BASIC_AUTH_TOKEN}}` pelo valor codificado gerado.
 
+## Para acessar do n8n
+
+```bash
+http://ewelink-server:3000/toggle/IDdoComponente
+```
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
