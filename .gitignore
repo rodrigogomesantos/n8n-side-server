@@ -1,0 +1,29 @@
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios de ambiente
+.DS_Store
+.env
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+
+# Diretórios específicos do projeto
+n8n_data/
+ewelink_data/
+
+# VS Code
+.vscode/

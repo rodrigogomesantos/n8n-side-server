@@ -1,0 +1,5 @@
+###  echo -n "seu_email@example.com:sua_senha" | base64
+### Teste de Autenticação e Toggle Device
+POST http://localhost:3000/toggle/1234567890abcdef
+Authorization: Basic c2V1X2VtYWlsQGV4YW1wbGUuY29tOnN1YV9zZW5oYQ==
+Content-Type: application/json
