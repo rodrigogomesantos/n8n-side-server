@@ -140,6 +140,22 @@ Para verificar os logs do container do servidor:
 docker-compose logs -f ewelink-server
 ```
 
+### Acessar o Container
+
+Para usar o terminal dentro do container:
+
+```bash
+docker-compose run --rm ewelink-server sh
+
+```
+### Limpar e Remover Containers e Imagens
+
+Limpa tudo:
+
+```bash
+docker-compose down --rmi all --volumes --remove-orphans
+```
+
 ## Testar a Autenticação e Toggle Device
 
 ### Arquivo `.http` para Teste com VS Code
