@@ -17,9 +17,6 @@ pnpm-debug.log*
 .DS_Store
 .env
 
-# Docker
-**/Dockerfile
-**/docker-compose.yml
 
 # Diretórios específicos do projeto
 n8n_data/
