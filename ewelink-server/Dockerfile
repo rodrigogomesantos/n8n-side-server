@@ -1,8 +1,14 @@
+# Dockerfile
 # Use a imagem base do Node.js
 FROM node:lts-alpine
 
 # Defina o diretório de trabalho
 WORKDIR /usr/src/app
+
+# Instalar Python e dependências necessárias para node-gyp
+RUN apk update && \
+    apk add --no-cache python3 make g++ && \
+    ln -sf python3 /usr/bin/python
 
 # Copie os arquivos package.json e package-lock.json
 COPY package.json package-lock.json ./
